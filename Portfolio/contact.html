@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <header>
+            <h1>Contact Me</h1>
+        </header>
+        <nav class="border">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="projects.html">Projects</a></p>
+            <p><a href="testimonials.html">Testimonials</a></p>
+            <p><a href="contact.html">Contact</a> </p>
+        </nav>
+        <div class="clear-float"></div>
+        <h2>Informtion Request</h2>
+        <form action="index.html" method="post">
+            <label for="firstname">First Name:</label> <br> <input type="text" name="firstname"><br>
+            <label for="lastname">Last Name:</label> <br> <input type="text" name="lastname"> <br>
+            <label for="number">Phone Number:</label><br> <input type="text" name="number"><br> <br><br>
+            <label for="contact">Best time to call:</label>
+            <select name="contact">
+                <option value="default" selected>--select--</option>
+                <option value="Morning"> Morning (8AM - 12PM)</option>
+                <option value="Afternoon"> Afternoon (12PM - 5PM)</option>
+                <option value="Evening"> Evening (5PM - 8PM)</option>
+            </select> <br><br>
+            <fieldset>
+            <legend>I am interested in (check all that apply):</legend> <br>
+            <input type="checkbox" id="frontend" name="interest" value="front-end"> <label for="frontend">Front-End Web development </label><br>
+            <input type="checkbox" id="backend" name="interest" value="back-end"> <label for="backend">Back-End Web development</label> <br>
+            <input type="checkbox" id="database" name="interest" value="database"> <label for="database">Database Design</label> <br>
+            </fieldset>
+            <br><br>
+            <fieldset>
+            <legend>I have filled in the client questionaire form:</legend><br>
+            <input type="radio" id="choice1" name="filled" value="Yes"><label for="choice1">Yes</label><br>
+            <input type="radio" id="choice2" name="filled" value="No"> <label for="choice2">No</label> <br>
+            </fieldset>
+            <br>
+            <label for="info">Additonal information </label><br>
+            <textarea name="additional" rows="8" cols="80"></textarea><br>
+
+            <input type="submit"> <input type="reset">
+        </form>
+        <hr>
+        <footer>
+        <p>&copy; 2020 James Goodman. All right reserved.</p>
+        </footer>
+    </body>
+</html>
