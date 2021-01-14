@@ -1,0 +1,81 @@
+
+
+header, footer{
+    background-color: #242f40;
+    color: #e5e5e5;
+    text-align: center;
+    padding: 30px 10px;
+    height: 100px;
+}
+.jumbotron{
+    background-color: #242f40;
+    color: #e5e5e5;
+    padding: 30px 10px;
+    height: 150px;
+}
+#restuarantinfo{
+    background-color: #D2D7DF;
+    color: #242f40;
+    text-align: center;
+}
+body{
+    background-color: #e5e5e5;
+    color: 363636;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: arial, helvetica, sans-serif;
+}
+nav{
+    border-top: thin #242F40 solid;
+    border-bottom: thin  #242F40 solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+nav .btn{
+    background-color: #242f40;
+    color: #e5e5e5;
+    padding: 8px;
+    border: thin solid #0d1f2d;
+    text-decoration: none;
+    text-align: center;
+    width: 100px;
+}
+nav .btn:hover{
+    font-weight: bold;
+
+}
+nav{
+    border-top: thin #242F40 solid;
+    border-bottom: thin #242F40 solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.clear-float{
+    clear: both;
+}
+article img{
+    float:left;
+}
+.right-content{
+    float:left;
+}
+table, th, td{
+        border: 1px solid #0d1f2d;
+        border-collapse: collapse;
+        padding: 5px 10px 5px 10px;
+        text-align: center;
+    }
+    table {
+        width: 75%;
+        margin: auto;
+    }
+    tr{
+        height: 30px;
+    }
+    th{
+        background-color: #242f40;
+        color: white;
+    }
+    tr:nth-child(odd){
+        background-color: #D2D7DF;
+    }
